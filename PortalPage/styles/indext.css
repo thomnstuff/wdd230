@@ -1,0 +1,22 @@
+header {
+    width: auto;
+    display: flex;
+    background-color: blueviolet;
+    
+}
+
+img {
+    padding: 35px;
+    height: 250px;
+    width: 250px;
+}
+
+h1 {
+    margin-top: 150px;
+}
+
+footer {
+    background-color:blueviolet;
+    text-align: center;
+
+}
