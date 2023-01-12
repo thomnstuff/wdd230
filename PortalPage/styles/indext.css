@@ -1,7 +1,7 @@
 header {
     width: auto;
     display: flex;
-    background-color: blueviolet;
+    background-color: rgb(143, 108, 175);
     
 }
 
@@ -16,7 +16,6 @@ h1 {
 }
 
 footer {
-    background-color:blueviolet;
+    background-color:rgb(143, 108, 175);
     text-align: center;
-
 }
