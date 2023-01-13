@@ -1,8 +1,16 @@
 header {
     width: auto;
+    background-color: rgb(143, 108, 175);   
+}
+#header-content {
     display: flex;
-    background-color: rgb(143, 108, 175);
-    
+    margin-left: 25%;
+}
+
+
+section {
+    list-style-position: inside;
+    text-align: center;
 }
 
 img {
