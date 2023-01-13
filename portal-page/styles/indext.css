@@ -2,6 +2,7 @@ header {
     width: auto;
     background-color: rgb(143, 108, 175);   
 }
+
 #header-content {
     display: flex;
     margin-left: 25%;
