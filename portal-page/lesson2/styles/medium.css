@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+
+    main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 30px;
+        margin-right: 30px;
+        grid-gap: 35px;
+    }
+   
+    #section-one{
+        grid-column: 1/2;
+    }
+    
+    #section-two{
+        grid-column: 2/3;
+    }
+
+    #section-three{
+        grid-column: 1/3;
+        
+    }
+  }
