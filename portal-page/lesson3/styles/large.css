@@ -1,0 +1,34 @@
+@media screen and (min-width: 950px) {
+    #color-box {
+        display: flex;
+        padding: 25px;
+        max-width: 50%;
+        text-align: center;
+    }
+    a {
+        padding: 10px;
+        color: #1E352F;
+        border-radius: 9px;
+        font-size: large;
+        background-color: #BEEF9E;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: whitesmoke;
+        border-radius: 9px;
+        font-size: large;
+        background-color:#828C51;
+        text-decoration: none;
+    }
+    nav {
+        height: 40px;
+        background-color:#335145;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+    }
+    nav div {
+        flex: 1 1 auto;
+    }
+}
