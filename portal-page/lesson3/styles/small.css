@@ -3,6 +3,8 @@ header, footer {
     background-color:#828C51;
     border-radius: 15px;
     border: black;
+    margin-top: 0%;
+    font-family: "Rubic Dirt", sans-serif;
 }
 
 nav {
@@ -31,6 +33,11 @@ a:hover {
     font-size: x-large;
     background-color:#828C51;
     text-decoration: none;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: rgb(229, 225, 242);
 }
 
 main {
