@@ -3,7 +3,7 @@ header, footer {
     background-color:#828C51;
     border-radius: 15px;
     border: black;
-    font-family: "Rubic Dirt", sans-serif;
+    font-family: "Rubic Dirt";
 }
 
 nav {
@@ -35,7 +35,7 @@ a:hover {
 }
 
 body {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Roboto Condensed";
     background-color: rgb(229, 225, 242);
 }
 
@@ -89,4 +89,20 @@ ul {
     margin-left: 15%;
     list-style-position: inside;
     text-align: left;
+}
+
+#title-fonts {
+    font-family: "Rubic Dirt", sans-serif;
+    background-color:#BEEF9E;
+    width: 50%;
+    margin-left: 25%;
+    padding: 25px;
+}
+
+#par-fonts {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color:#BEEF9E;
+    width: 50%;
+    margin-left: 25%;
+    padding: 25px;
 }
