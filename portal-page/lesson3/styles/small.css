@@ -51,36 +51,42 @@ main h2 {
 
 .color-1 {
     background-color: #828C51;
-    padding: 25px;
+    padding: 35px;
     border-radius: 15px;
 }
 
 .color-2 {
     background-color: #335145;
-    padding: 25px;
+    padding: 35px;
     border-radius: 15px;
 }
 
 .color-3 {
     background-color:#BEEF9E;
-    padding: 25px;
+    padding: 35px;
     border-radius: 15px;
 }
 
 .color-4 {
     border-radius: 15px;
     background-color: #1E352F;
-    padding: 25px;
+    padding: 35px;
 }
 
 #color-box {
    
     border-radius: 15px;
     padding: 25px;
-    max-width: 50%;
+    max-width: 100%;
     text-align: center;
 }
 
 img {
     height: 70px;
+}
+
+ul {
+    margin-left: 15%;
+    list-style-position: inside;
+    text-align: left;
 }
