@@ -1,0 +1,141 @@
+header {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3,auto);
+    background-color: #828C51;
+    text-decoration: none;
+}
+
+#name-space {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    margin: 10px;
+    display: flex;
+    background-color: #828C51;
+}
+
+#name-space h1 {
+    margin-left: 20px;
+}
+
+#name-space h2 {
+    margin-left: 20px;
+}
+
+#social-link {
+    display: flex;
+    margin-top: 20%;
+    margin-right: 35px;
+    grid-row: 1/2;
+    grid-column-start: 2/3;
+}
+
+#social-link img {
+    grid-row: 2;
+    grid-column: 2/3;
+    max-height: 30px;
+    padding: 5px;
+    justify-content: center;
+}
+
+nav {
+    font-family: "Rubic Dirt", sans-serif;
+    font-size: large;
+    text-decoration: none;
+    grid-row: 1;
+    grid-column: 4/5;
+}
+
+nav ul {
+    text-decoration: none;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
+    text-decoration: none;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+}
+
+nav ul {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav a {
+    text-decoration: none;
+    color: #BEEF9E;
+}
+
+a:hover {
+    color: #335145;
+}
+
+#date {
+    margin: 8px;
+    padding: 10px;
+    grid-column: 1/5;
+    grid-row: 3;
+    text-align: center;
+    background-color: #335145;
+    color: azure;
+}
+
+#hamBtn span:nth-child(1) {display: block;}
+#hamBtn span:nth-child(2) {display: none;}
+
+#hamBtn.open span:nth-child(1) {display: none;}
+#hamBtn.open span:nth-child(2) {display: block;}
+
+main {
+    margin: 15px;
+    background-color: lightgrey;
+}
+
+main section {
+    margin: 10px;
+    padding: 70px;
+    border: .5px solid gray;
+}
+
+section div {
+    border: .5px solid gray;
+    padding: 55px;
+}
+
+div.spot-3 {
+    display: none;
+}
+
+div.big-info, div.big-contain {
+    display: none;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    background-color: #828C51;
+    justify-items: center;
+}
+
+footer img {
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+#info, .dev-info, #location {
+    text-align: center;
+}
+
+.dev-info {
+    border-top: 1px solid black;
+}
