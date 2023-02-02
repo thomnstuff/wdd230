@@ -40,33 +40,41 @@
         display: none;
     }
 
-    div.dev-info {
+    footer.dev-info {
         display: none;
     }
     
     footer {
+        justify-items: center;
+    }
+    div.dev-info {
+        display: none;
+    }
+     div.big-contain {
+        display: block;
+        text-align: center;
+     }
+     
+     div.big-info {
+        display: block;
+     }
+    
+    #top-portion {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #info {
+        display: flex;
+        padding: 20px;
+    }
+    
+    #location {
+        padding: 20px;
+    }
+    #bottem-portion {
+        display: grid;
         grid-template-rows: 1fr;
     }
 
-    #location {
-        margin-top: 20px;
-        grid-column: 3;
-        grid-row: 1;
-    }
-
-    div.big-info {
-        display: flex;
-        grid-row: 2;
-        grid-column: 1/4;
-    }
-
-    div.big-contain {
-        display: block;
-        text-align: center;
-        grid-row: 2;
-        grid-column: 1/4;
-    }
-    
 }
