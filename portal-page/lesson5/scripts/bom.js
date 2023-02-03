@@ -5,12 +5,12 @@ btn.addEventListener('click', function() {
 	const input =
 	document.getElementById("favchap").value;
 	let newEl = document.createElement("li");
-	let delbtn = document.createElement("button");
+	let delBtn = document.createElement("button");
 	newEl.innerHTML = input;
 	list.append(newEl);
-	delbtn.textContent = "X";
-	newEl.append(delbtn);
-	delbtn.addEventListener("click", function(){
+	delBtn.textContent = "X";
+	newEl.append(delBtn);
+	delBtn.addEventListener("click", function(){
 		newEl.remove();
 		document.getElementById("favchap").focus();
   })
